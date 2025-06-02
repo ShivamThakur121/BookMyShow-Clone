@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(219, 72, 72);
+    padding: 1rem;
+}
+.search{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(226, 227, 228);
+   
+}
+.searching{
+    width: 400px;
+    max-width: 50%;
+    font-size: 0.95rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.search >button{
+    font-size: 1.7rem;
+    margin-left: .5rem;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    color: white;
+    background-color:  rgb(219, 72, 72);
+}
+.left{
+    color: white;
+}
+.right button{
+    margin-left: 0.5rem;
+    font-size: 1.25rem;
+    color: white;
+    background-color: rgb(219, 72, 72);
+    border: none;
+    cursor: pointer;
+    
+}
+
+.hero{
+    flex-direction: column;
+    justify-items: center;
+    background-image: url(./pexels-sohi-807598.jpg);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.hero > h2{
+    color: white;
+    font-size: 2rem;
+    background-color: black;
+    border-radius: 5px;
+}
+.hero>button{
+    background-color: rgb(219, 72, 72);
+    color: white;
+    font-size: 1.75rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+    cursor: pointer;
+    padding: .35rem;
+}
+
+.mover{
+    text-align: center;
+    padding: 1rem;
+}
+.mover>h2{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.images{
+    height: 370px;
+}
+.movie{
+    display: flex;
+    /* justify-content: center; */
+    overflow-x: scroll;
+}
+
+.card{
+    background-color: rgb(208, 199, 199);
+    border: 0.35rem solid rgb(190,183,183);
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 1rem;
+}
+.card>h3{
+    font-size: 1.2rem;
+}
+.bot{
+    margin-top: 3rem;
+    text-align: center;
+}
+.bot>img{
+    max-width: 80%;
+}
+
+@media(max-width:600px){
+    .logo{
+        flex-direction: column;
+        align-items: center;
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+    }
+    .movie{
+        flex-direction: column;
+    }
+}
