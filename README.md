@@ -2,7 +2,7 @@
 
 This is a static frontend clone of the [BookMyShow](https://in.bookmyshow.com/) homepage, developed using only **HTML** and **CSS**. It features a responsive layout, movie cards, banners, and a navigation bar mimicking the original design.
 
-![Screenshot](Screenshot (87).png) <!-- Replace path if necessary -->
+![Screenshot (87).png](https://github.com/ShivamThakur121/BookMyShow-Clone/blob/ae890050dcba469153d6b3faabe161c46904a1d1/Screenshot%20(87).png) <!-- Replace path if necessary -->
 
 ## 📌 Features
 
